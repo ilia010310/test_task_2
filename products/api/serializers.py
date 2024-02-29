@@ -1,6 +1,5 @@
-from django.contrib.auth.models import User
 from rest_framework import serializers
-from products.models import Product, Group, Lesson
+from products.models import Product, Lesson
 
 
 class LessonSerializer(serializers.ModelSerializer):
